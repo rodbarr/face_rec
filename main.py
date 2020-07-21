@@ -23,9 +23,9 @@ while True:
     
     cv2.imshow('FaceDetection', frame)
 
-    if k%256 == 27:
+    if k%256 == 27: #Stop when ESC is pressed
         break
-    elif k%256 == 32:
+    elif k%256 == 32: #Take a picture when space is pressed
         img_name = "facedetect_webcam_{}.png".format(img_count)
         cv2.imwrite(img_name,frame)
         print("{} written!".format(img_name))
