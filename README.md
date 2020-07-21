@@ -1,2 +1,2 @@
 # face_rec
-basic implementation of open CV
+basic implementation of openCV and face recognition
